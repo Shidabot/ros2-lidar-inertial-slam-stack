@@ -1,3 +1,9 @@
-# source /home/hy/Documents/prince/source_code/ws_livox/install/setup.bash
+#!/usr/bin/env bash
+set -euo pipefail
 
-ros2 bag play /home/hy/Documents/prince/rosbag2
+if [[ $# -ne 1 ]]; then
+  echo "Usage: $0 <rosbag-directory>" >&2
+  exit 1
+fi
+
+ros2 bag play "$1"
