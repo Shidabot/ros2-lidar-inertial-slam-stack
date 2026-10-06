@@ -1,7 +1,0 @@
-ros2 topic pub /cmd_vel geometry_msgs/Twist '{linear: {x: 0.5}, angular: {z: 0.0}}'
-
-source /usr/share/gazebo/setup.sh
-
-colcon build --packages-select fastlio2 pgo
-
-当前项目pgo主要负责SLAM建图包括fast_lio+gstam。localizer后续可能在nav过程中用到，但是现在用的应该是离线数据建图，后续需要和pgo发布的实时地图数据定位。现在少了一些
