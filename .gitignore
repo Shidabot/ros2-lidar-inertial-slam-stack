@@ -1,0 +1,6 @@
+.vs*/
+.marscode/
+build/
+install/
+log/
+./*.log/
