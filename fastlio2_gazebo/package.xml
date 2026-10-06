@@ -3,7 +3,7 @@
   <name>fastlio2_gazebo</name>
   <version>0.0.1</version>
   <description>FASTLIO2 Gazebo Simulation Environment</description>
-  <maintainer email="trae@example.com">Trae AI</maintainer>
+  <maintainer email="maintainer@invalid.local">Project Maintainer</maintainer>
   <license>Apache-2.0</license>
   
   <buildtool_depend>ament_cmake</buildtool_depend>
